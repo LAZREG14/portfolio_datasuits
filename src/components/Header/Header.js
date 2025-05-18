@@ -10,7 +10,15 @@ const Header = () =>  (
  <Container>
   <Div1>
     <Link href="/" style={{ display: "flex", alignItems: "center", color: "white", marginBottom: 20 }}>
-        <DiCssdeck size="3rem" /> <Span>Data Suits</Span>
+        <div style={{ width: "3rem", height: "3rem", position: "relative" }}>
+          <Image 
+            src="/public/images/logo_DS.png" 
+            alt="Data Suits Logo" 
+            layout="fill" 
+            objectFit="contain"
+          />
+        </div>
+        <Span>Data Suits</Span>
     </Link>
   </Div1>
 
