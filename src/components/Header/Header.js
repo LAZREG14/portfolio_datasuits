@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiFillGithub, AiFillLinkedin, AiFillTwitterSquare } from 'react-icons/ai';
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { BsTwitterX } from "react-icons/bs";
 import { DiCssdeck } from 'react-icons/di';
 
